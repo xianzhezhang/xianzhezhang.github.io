@@ -32,10 +32,12 @@
 							<h2>About me</h2>
 						</header>
 						<p>Master student at Stanford.</br>
-						Focusing on AI, Data Mining, Computer Vision and software development.</br> 
+						Focusing on AI, Data Mining, Computer Graphics and software development.</br> 
 						4 years mobile development experience.</br>
 						With hardware background in embedded system, FPGA, sensors, etc.</p>
-						<p>Courses: CS229 Machine Learning, CS161 Design and Analysis of Algorithms, CS145 Data Management and Data Systems, CS224N Natural Language Processing, CS246 Mining Massive Data Sets, CS248 Interactive Computer Graphics</p>
+						<p>Courses:</br> 
+						CS229 Machine Learning, CS161 Design and Analysis of Algorithms, CS145 Data Management and Data Systems, </br> 
+						CS224N Natural Language Processing, CS246 Mining Massive Data Sets, CS248 Interactive Computer Graphics</p>
 <!-- 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul> -->
@@ -78,6 +80,21 @@
 						</div>
 					</section>
 
+					<section id="six">
+						<header class="major">
+							<h2>Skills</h2>
+						</header>
+						<div class="row">
+							<article class="9u 12u$(xsmall)">
+								<ul>
+									<li>Java, Python, C/C++, SQL, MatLab, JavaScript, HTML, CSS, Spark.</li>
+									<li>Machine Learning, Data Mining, Computer Graphics, Android Development, Web Development, Linux, Git</li>
+									<li>VHDL, FPGA, ModelSim, MultiSim, Altium Designer9; Embedded System, ASIC desgin.</li>
+									<li>LaTex, MarkDown, Sketch, Photoshop, etc.</li>
+								</ul>
+							</article>
+						</div>
+					</section>
 
 					<!-- Work -->
 					<section id="six">
@@ -135,30 +152,133 @@
 
 
 					<!--Project -->
-<!-- 					<section id="six">
+					<section id="six">
 						<header class="major">
-							<h2>Research Experience</h2>
+							<h2>Projects</h2>
+							<h4>Software Related</h4>
 						</header>
-
+						
 						<header class="major">
-							<h3>Machine Learning in Medical Imaging Interpretation, Troy, NY</h3>
-							<h5><I>Research Intern, Advisor: Prof. Ge Wang, RPI Biomedical Imaging Center, June 2018 - Sept. 2018</I></h5>
+							<h3>StackOverflow Question Quality Analysis with Machine Learning</h3>
+							<h5><I>Stanford, CA, Oct. 2018 - Nov. 2018</I></h5>
 						</header>
 						<div class="row">
 							<div>
 								<article class="9u 12u$(xsmall)">
-									<h4>Project 1: Super-resolution Computed Tomography (CT): GAN-CIRCLE</h4>
 									<ul>
-									  <li>Proposed an end-to-end deep learning based method (GAN-CIRCLE) for super-resolution (SR) image restoration in clinical application.</li>
-									  <li>Designed a lightweight model to achieve considerable SR gain at a low computational cost.</li>
-									  <li>Developed a novel joint constraints in the loss function to facilitate structural preservation.</li>
-									  <li>Experimented on three large-scale CT datasets which are of very different characteristics, and obtain promising results as compared to the other <I>state-of-the-art</I> methods in 1X (100%) resolution improvement (Paper submitted to <I>IEEE Transactions on Medical Imaging.</I>)</li>
+									  <li>Analyzed public StackOverflow dataset on BigQuery with E/R diagrams, selected potential features affecting the quality of questions on StackOverflow.</li>
+									  <li>Sampled and extracted data with SQL, visualized data with Altair lib on CoLab, and filtered related features.</li>
+									  <li>Predicted the result of selected features using logistic regression provided by BigQuery Machine Learning Module, evaluated the analysis with predictions.</li>
 									</ul>
 								</article>
 							</div>
 						</div>
 
-					</section>  -->
+						<header class="major">
+							<h3>Automated Liver Segmentation via Mask-RCNN</h3>
+							<h5><I>Stanford, CA, Oct. 2018 - Dec. 2018</I></h5>
+						</header>
+						<div class="row">
+							<div>
+								<article class="9u 12u$(xsmall)">
+									<ul>
+									  <li>Researched a wide range of architectures, adopted Mask-RCNN for the task of segmenting both the liver and its lesions from CT scans, and proposed a novel cascaded architecture together with our team.</li>
+									  <li>Enlarge dataset with augmentation methods and generated masks as training labels in MatLab.</li>
+									  <li>Set up development machines and environment, fixed issues with TensorFlow, GPU driver and other dependencies, and completed final report and poster.</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+
+
+						<header class="major">
+							<h3>A Profit Calculator for Transferring Cryptocurrencies</h3>
+							<h5><I>Personal open source project, available on <a href="https://github.com/xianzhez/blockchain_exchange_calculator">GitHub</a>, Jan. 2018</I></h5>
+						</header>
+						<div class="row">
+							<div>
+								<article class="9u 12u$(xsmall)">
+									<ul>
+									  <li>Designed and developed a Java project to calculate the profit to transfer cryptocurrencies between different exchanges every 30 seconds which could rank the profit ratio for transferring different coins and present the best transfer strategy.</li>
+									  <li>Employed Retrofit to obtain data from exchange's API and GSON to parse Json data structure; utilized RxJava and Handler to implement multiple threads and asynchronous data processing.</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+
+
+						<header class="major">
+							<h3>A Web Login System Based on CAPTCHA of Mandarin Voice</h3>
+							<h5><I>Advisor: Team Leader, Advisor: Yu Zhang, ZJU, Apr. 2014 - July 2014</I></h5>
+						</header>
+						<div class="row">
+							<div>
+								<article class="9u 12u$(xsmall)">
+									<ul>
+									  <li>Collaborated with two others to develop a vocal CAPTCHA login system to help the disabled use the Internet and received the First Prize in the 2014 National College Student Information Security Contest in recognition.</li>
+									  <li>Surveyed the features of mandarin pronunciation and the pathways to process voice files with algorithm of random.</li>
+									  <li>Implemented a voice-processing algorithm in MATLAB and integrated it with the Web login system coded in C#; devised a test method of measuring the robustness of the system to ensure the applicability.</li>
+									  <li>Engaged in the final defense of the contest, the design of the algorithm and MATLAB development.</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+
+
+						<header class="major">
+							<h4>Hardware Related</h4>
+						<header class="major">
+							<h3>Fabrication Process Improvement of PDMS Semipermeable Membrane for IMS</h3>
+							<h5><I>Advisor: Prof. Xiaozhi Wang, Institute of Microelectronics and Optoelectronics (IMO), ISEE, ZJU, Oct. 2015</I></h5>
+						</header>
+						<div class="row">
+							<div>
+								<article class="9u 12u$(xsmall)">
+									<ul>
+									  <li>Stabilized the properties of the skin-like sensor employing the piezoresistive and resistive mechanisms of multi-wall carbon nano tubes (MWCNTs) to imitate touch, pain, thermal and other sensations by determining the parameters of fabrication and packaging the sensor with a layer of PDMS, improving the precision of the sensor data analysis.</li>
+									  <li>Designed a multi-channel signal amplification and acquisition circuit for the skin-like sensor, developed a system with an embedded board of MSP430 and MATLAB to analyze and visualize the data of sensors.</li>
+									  <li>Improved the accuracy of data visualization and the flexibility of the system, made it possible for practical application on five-fingered robotic hand and etc;</li>
+									  <li>Engaged in circuit design, simulation and welding, PCB design, embedded and MATLAB development.</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+
+						<header class="major">
+							<h3>Skin-like Sensor Signal Acquisition and Analysis System</h3>
+							<h5><I>Advisor: Prof. Xiaozhi Wang, ISEE, ZJU, Jun. 2015 - Aug. 2015</I></h5>
+						</header>
+						<div class="row">
+							<div>
+								<article class="9u 12u$(xsmall)">
+									<ul>
+									  <li>Stabilized the properties of the skin-like sensor employing the piezoresistive and resistive mechanisms of multi-wall carbon nano tubes (MWCNTs) to imitate touch, pain, thermal and other sensations by determining the parameters of fabrication and packaging the sensor with a layer of PDMS, improving the precision of the sensor data analysis.</li>
+									  <li>Designed a multi-channel signal amplification and acquisition circuit for the skin-like sensor, developed a system with an embedded board of MSP430 and MATLAB to analyze and visualize the data of sensors.</li>
+									  <li>Improved the accuracy of data visualization and the flexibility of the system, made it possible for practical application on five-fingered robotic hand and etc;</li>
+									  <li>Engaged in circuit design, simulation and welding, PCB design, embedded and MATLAB development.</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+						</header>						
+
+						<header class="major">
+							<h3>Pipelined MIPS Processor Implementation on Xilinx FPGA Platform</h3>
+							<h5><I><a herf=https://github.com/xianzhez/five-staged_pipelined_mips_design>GitHub</a>, ZJU, Nov. 2013 - Dec. 2013</I></h5>
+						</header>
+						<div class="row">
+							<div>
+								<article class="9u 12u$(xsmall)">
+									<ul>
+									  <li>Implemented a five-stage pipelined MIPS processor in VHDL on the Xilinx FPGA development platform.</li>
+									  <li>Delved into computer organization and design, probed into the interrelations of the transistor, logic gate, digital circuit, processor architecture and instruction set by reflecting on the courses of digital and analog circuits.</li>
+									  <li>Engaged in coding in VHDL, simulation in ModelSim, FPGA development.</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+
+					</section> 
 
 				<!-- Two -->
 <!-- 					<section id="two">
