@@ -44,11 +44,11 @@
 							<h2>About me</h2>
 						</header>
 						<p>Master student at Stanford.</br>
-						Focusing on AI, Data Mining, Computer Graphics and software development.</br> 
+						Focusing on NLP, ML, Data Mining, Computer Graphics and software development.</br> 
 						4 years mobile development experience.</br>
 						With hardware background in embedded system, FPGA, sensors, etc.</p>
 						<p>Courses:</br> 
-						CS229 Machine Learning, CS224N Natural Language Processing, CS246 Mining Massive Data Sets </br> 
+						CS229 Machine Learning, CS224N Natural Language Processing, CS246 Mining Massive Data Sets</br> 
 						CS248 Interactive Computer Graphics, CS161 Design and Analysis of Algorithms, CS145 Data Management and Data Systems</p>
 <!-- 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
@@ -72,7 +72,7 @@
 							<span class="pull-left"><img src="images/edu/su_logo2.png" width="96px" height="96px"/></span>
 							<article class="10u 12u$(xsmall)">
 								<h4>Stanford University, Stanford, CA</h4>
-								<p>Sept. 2018 -- Present<br />
+								<p>Sept. 2018 -- Present<br/>
 								Master of Science in Electrical Engineering, Software and Hardware Systems<br />
 								GPA: 3.8/4.0</p>
 							</article>
@@ -99,8 +99,9 @@
 						<div class="row">
 							<article class="9u 12u$(xsmall)">
 								<ul>
-									<li>Java, Python, C/C++, SQL, MatLab, JavaScript, HTML, CSS, Spark.</li>
-									<li>Machine Learning, Data Mining, Computer Graphics, Android Development, Web Development, Linux, Git</li>
+									<li>Java, Python, C/C++, SQL, JavaScript, HTML, CSS, MatLab.</li>
+									<li>Pytorch, Tensorflow, Spark, Linux shell, Git, SVN, JIRA, Conflence.</li>
+									<li>Natural Language Processing, Machine Learning, Data Mining, Computer Graphics, Android Development, Web Development.</li>
 									<li>VHDL, FPGA, ModelSim, MultiSim, Altium Designer9; Embedded System, ASIC desgin.</li>
 									<li>LaTex, MarkDown, Sketch, Photoshop, etc.</li>
 								</ul>
@@ -169,6 +170,45 @@
 						</header>
 
 						<header class="major">
+						<h3>Ensemble BERT with Data Augmentation and Linguistic Knowledge on SQuAD 2.0</h3>
+						<h5><I>Ranked #1 on CS224N (Instructed by Prof. Christopher Manning) PCE leaderboard, Stanford, CA, Feb.-Mar. 2019</I></h5>
+						</header>
+						<div class="row">
+							<div>
+								<article class="9u 12u$(xsmall)">
+									<ul>
+									  <li>Proposed a Question Answering (QA) system based on BERT baseline model and improved F1/EM score to 81.76/79.43 which are 1.5%/2.7% higher than single BERT baseline model on SQuAD 2.0 dev set.</li>
+									  <li>Augmented SQuAD 2.0 dataset by performing synonym and random word replacement with NLTK and WordNet on the contexts and explored different sampling strategies; employed linguistic knowledge to adjust the probability of answers; ensembled trained models on TPU with weight; fixed issues of BERT source code when predicting.</li>
+									  <li>Ranked #1 on CS224N course leaderboard of SQuAD 2.0 for PCE projects and won 1st Prize in poster session evaluated by Prof. Chris Manning and teaching staff.</li>
+						<!-- 			  <li><a herf="https://drive.google.com/open?id=19UKyH3hFlf1CtKT0HtnuyNqj5kEnmrEa" target="_blank">poster</a>, <a herf="https://drive.google.com/open?id=1XxEHx1kjiU2K-m6PB1COkCn50aUC_XK0" target="_blank">report</a>, and <a herf="https://drive.google.com/open?id=1iszOjbk8c3D4tmhhZw46F1Ws8JzQU_Wq" target="_blank">news from Chris' Twitter</a> are available.</li> -->
+									  <li><a href="https://drive.google.com/open?id=19UKyH3hFlf1CtKT0HtnuyNqj5kEnmrEa" target="_blank">Poster</a>, <a href="https://drive.google.com/open?id=1XxEHx1kjiU2K-m6PB1COkCn50aUC_XK0" target="_blank">report</a>, <a href="https://drive.google.com/open?id=1iszOjbk8c3D4tmhhZw46F1Ws8JzQU_Wq" target="_blank">news from Prof. Chris' Twitter</a> are available.</li>
+									</ul>
+								</article>
+							</article>
+							</div>
+
+							<a href="https://drive.google.com/open?id=19UKyH3hFlf1CtKT0HtnuyNqj5kEnmrEa" target="_blank"><img src="images/project_pics/224_poster.jpeg" alt="" width="150" height="100"/></a>
+							<a href="ttps://drive.google.com/open?id=1XxEHx1kjiU2K-m6PB1COkCn50aUC_XK0" target="_blank"><img src="images/project_pics/224_report.jpeg" alt="" width="150" height="100"/></a>
+							<a href="https://drive.google.com/open?id=1iszOjbk8c3D4tmhhZw46F1Ws8JzQU_Wq" target="_blank"><img src="images/project_pics/224_session.jpeg" alt="" width="150" height="100"/></a>
+						</div>
+
+						<header class="major">
+						<h3>A Neural Machine Translation System with RNNs</h3>
+						<h5><I>Stanford, CA, Feb. 2019</I></h5>
+						</header>
+						<div class="row">
+							<div>
+								<article class="9u 12u$(xsmall)">
+									<ul>
+									  <li>Learned to build a Neural Machine Translation (NMT) system with a Bidirectional LSTM Encoder and a Unidirectional LSTM Decoder, as well as attention mechanism.</li>
+									  <li>Implemented core modules: embedding conversion, parameters initialization, encoding and decoding procedures.</li>
+									  <li>Trained this model on Azure and achieved BLEU score 22.56.</li>
+									</ul>
+								</article>
+							</div>
+						</div>	
+
+						<header class="major">
 							<h3>A Conversation Translation App using Google Machine Learning API</h3>
 							<h5><I>TreeHacks, Stanford, CA, Feb. 2019</I></h5>
 						</header>
@@ -185,36 +225,22 @@
 						</div>
 
 						<header class="major">
-							<h3>A Mini 3D Mesh Editor</h3>
-							<h5><I>Stanford, CA, Feb. 2019</I></h5>
+							<h3>Cardinal3D Mesh Editor and Animation System</h3>
+							<h5><I>Stanford, CA, Feb.-Mar. 2019</I></h5>
 						</header>
 						<div class="row">
 							<div>
 								<article class="9u 12u$(xsmall)">
 									<ul>
-									  <li>Implemented key algorithms of a mini 3D mesh editor and get familiar with the rasterization pipeline.</li>
-									  <li>Comprehended geometry representation, half-edge data structure, mesh editing process.</li>
-									  <li>Implemented local mesh operations: edge flip, split, collapse, beveling, etc., and global mesh operations: linear subdivision, Catmull-Clark subdivision, simplification and isotropic remeshing.</li>
+									  <li>Applied key algorithms of mesh operation and animation in C++, and got familiar with the rasterization pipeline.</li>
+									  <li>Comprehended geometry representation, half-edge data structure and implemented local mesh operations: edge flip, split, collapse, beveling, and global operations: Catmull-Clark subdivision, simplification and isotropic remeshing.</li>
+									  <li>Implemented Hermite Curve and Catmull-Rom spline interpolation, skeleton kinematics, linear blend skinning, and a real-time shader supporting Phong Reflectance, normal mapping, environment lighting, PCF shadows.</li>
 									</ul>
 								</article>
 							</div>
 						</div>
 
-						<header class="major">
-							<h3>A Neural Machine Translation System with RNNs</h3>
-							<h5><I>Stanford, CA, Feb. 2019</I></h5>
-						</header>
-						<div class="row">
-							<div>
-								<article class="9u 12u$(xsmall)">
-									<ul>
-									  <li>Learned to build a Neural Machine Translation (NMT) system with a Bidirectional LSTM Encoder and a Unidirectional LSTM Decoder, as well as attention mechanism.</li>
-									  <li>Implemented core modules: embedding conversion, parameters initialization, encoding and decoding procedures.</li>
-									  <li>Trained this model on Azure and achieved BLEU score 22.56.</li>
-									</ul>
-								</article>
-							</div>
-						</div>							
+						
 						
 						<header class="major">
 							<h3>StackOverflow Question Quality Analysis with Machine Learning</h3>
